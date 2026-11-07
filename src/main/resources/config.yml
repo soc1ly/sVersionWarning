@@ -1,0 +1,27 @@
+settings:
+  prefix: "&x&F&F&7&8&7&8sVᴇʀsɪᴏɴWᴀʀɴɪɴɢ &7◦"
+check:
+  enabled: true
+  min-version-name: "1.19.4"
+  min-protocol-version: 762
+
+message:
+  enabled: true
+  lines:
+    - ""
+    - "&r &fВаша версия &x&F&F&9&B&9&Bустарела&f, новые механики могут не поддерживаться"
+    - "&r &fОбновите Minecraft до версии &x&F&F&9&B&9&B%min_version%+&f, чтобы избежать проблем"
+    - ""
+
+title:
+  enabled: true
+  title: "&x&F&F&7&8&7&8Ваша версия устарела"
+  subtitle: "&fОбновите Minecraft до версии &x&F&F&9&B&9&B%min_version%+ "
+  fade-in: 10
+  stay: 70
+  fade-out: 10
+
+messages:
+  reload: "%prefix% &fКонфигурация успешно перезагружена"
+  no-permission: "%prefix% &fУ тебя нету прав на это действие"
+  usage: "%prefix% &fИспользование команды: &x&F&F&9&B&9&B/sversionwarning reload"

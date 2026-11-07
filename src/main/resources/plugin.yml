@@ -1,0 +1,17 @@
+name: sVersionWarning
+version: 1.0
+main: ceo.soc1ly.sVersionWarning.Main
+api-version: '1.21'
+authors:
+  - soc1ly
+commands:
+  sversionwarning:
+    description: main cmd
+    usage: /sversionwarning reload
+    aliases:
+      - sversion
+      - svw
+permissions:
+  sversionwarning.reload:
+    description: perm reload cfg
+    default: op
